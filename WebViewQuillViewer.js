@@ -108,9 +108,7 @@ export default class WebViewQuillViewer extends React.Component {
   showLoadingIndicator = () => {
     return (
       <View style={styles.activityOverlayStyle}>
-        <View style={styles.activityIndicatorContainer}>
-          <ActivityIndicator size="large" animating={this.state.webViewNotLoaded} color="green" />
-        </View>
+        <ActivityIndicator size="large" animating={this.state.webViewNotLoaded} color="#4CB8C4" />
       </View>
     );
   };
