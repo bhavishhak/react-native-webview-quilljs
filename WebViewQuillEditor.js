@@ -137,7 +137,7 @@ export default class WebViewQuillEditor extends React.Component {
         }}
       >
         <WebView
-          style={{ ...StyleSheet.absoluteFillObject }}
+          style={{ {height: 350}, ...StyleSheet.absoluteFillObject }}
           ref={this.createWebViewRef}
           source={INDEX_FILE}
           onLoadEnd={this.onWebViewLoaded}
